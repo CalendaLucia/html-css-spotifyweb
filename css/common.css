@@ -57,7 +57,7 @@ a {
     left:0;
     right:0;
     bottom:0;
-    background-color:rgba(0, 0, 0, 0.85);
+    background-color:rgba(0, 0, 0, 0.5);
     z-index:9999;
     color:white;
 }
@@ -68,5 +68,44 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+}
+
+/* GENERAL EFFECT HOVER */
+
+* a:hover {
+      color:var(--textWhite);
+}
+
+button:hover {
+    transform: scale( 1.3);
+}
+
+.icon-player i:hover {
+    color: var(--textWhite);
+}
+
+.fa-circle-play:hover {
+    transform: scale( 1.3);
+}
+
+.info-card p:hover {
+    color: var(--textWhite);
+    text-decoration: underline;
+}
+
+.w3-small:hover    {
+    background-color:limegreen; 
+    cursor: pointer;
+} 
+
+.w3-small:hover   .fa-circle {
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 80px; 
+}
+
+.top-footer span:hover {
+    color: var(--textWhite);
+
 }

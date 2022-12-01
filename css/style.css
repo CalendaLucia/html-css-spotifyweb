@@ -23,11 +23,11 @@
 }
 
 .list-bottom li {
-    padding:5px 0px;
+    padding:10px 0px;
 }
 
 .list-bottom a {
-   font-size: 10px;
+   font-size: 15px;
 }
 
 .list-top .fa-solid {
@@ -40,13 +40,14 @@
 }
 
 .list-item-center h5 {
-    font-size: 15px;
+    font-size: 18px;
     color: var(--textWhite);
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 .list-item-center a {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--textWhite);   
 }
 
@@ -116,7 +117,7 @@ header {
 
 .container-mybtn button {
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
     right: 30px;
     padding: 5px 30px;
     border-radius: 20px;
@@ -148,17 +149,14 @@ main .container-main {
 /* STYLE NAVBAR MAIN */
 
 #container-nav {
-    background-color: transparent;
     width: 100vw;
-    position: sticky;
-    top: 0px;
-    z-index: 2;
 }
 
 #nav-bar {
     position: fixed;
     top: 60px;
     left: 40px;
+    z-index: 3;
 }
 
 .nav-bar-main {
@@ -344,6 +342,16 @@ footer {
     border-radius: 100px;
     width:30%;
     background-color:#c1c1c1; 
+    position: relative;
+} 
+
+.w3-small .fa-circle {
+    color:#c1c1c1;
+    position: absolute;
+    bottom: -3px;
+    left: 30px; 
+    font-size: 12px;
+    display: none;
 } 
 
 .audio {
