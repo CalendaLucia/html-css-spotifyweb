@@ -5,3 +5,35 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+/* PALETTE */
+
+:root {
+    --bgMain:#141922;
+    --asideColor:#000000;
+    --textWhite:#ffffff;
+    --textGray:#75777c;
+}
+
+/* GENERAL RULES */
+
+
+body {
+    font-family: 'Gotham Black', sans-serif;
+}
+
+                                                
+a {
+    text-decoration: none;
+    color: var(--textWhite);
+    font-size: 10px;
+    font-family: 'Gotham Black', sans-serif;
+}
+
+* i {
+    color: white;
+}
+
+* li {
+    list-style: none;
+}

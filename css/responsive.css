@@ -1,0 +1,30 @@
+/* RESPONSIVE  DESKTOP FIRST*/
+/* 
+@media screen and (max-width:1100px) {
+
+    
+        .mycol {
+            width: calc((100% / 4) - 10px);
+            
+        }
+    
+    
+} */
+
+@media only screen and (max-width: 1100px) {
+    
+   .mycol {
+        width:calc(100% / 4) ;
+    }  
+
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .mycol {
+         width:calc(100% / 2) ;
+     }  
+ 
+     
+   }

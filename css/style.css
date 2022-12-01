@@ -1,0 +1,181 @@
+/* STYLE NAVIGATION SECTION */
+
+.navigation {
+    padding: 20px 20px;
+    width: 250px;
+    background-color: var(--asideColor);
+
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.nav-bar-top li {
+    padding-bottom: 10px;
+}
+
+.footer-nav {
+  color: white;
+  margin-top: 150px;
+}
+
+.top-footer {
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+/* STYLE HEADER */
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.container-mybtn {
+    background-color: #080b12 ;
+    padding: 15px 0px;
+    position: relative;
+}
+
+.container-mybtn button {
+    position: sticky;
+    left:950px;
+    top: 15px;
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border:1px solid  white;
+}
+
+/* STYLE MAIN SECTION CONTAINER MAIN */
+
+main .container-main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    background-color:var(--bgMain);
+}
+
+.container-main .content {
+    width: calc(100% - 250px); 
+}
+
+#content {
+    overflow: auto;
+}
+
+/* STYLE NAVBAR MAIN */
+
+#container-nav {
+    background-color: transparent;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-bar-main {
+    margin: 0 auto;
+    background-color: transparent;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.lyst-content li {
+    display: inline-block;
+    padding: 20px 5px;
+}
+
+.mark {
+     border-bottom: 3px solid yellowgreen;
+     border-bottom-width: -30px;
+}
+
+/* STYLE MAIN SECTION TITLE */
+
+#title {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.myrow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mycol {
+    width: calc((100% / 6) - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.myrow .img {
+    box-shadow: -2px -2px 7px -1px #000000;
+}
+
+.img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.title-playlist h2 {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.myrow h6 {
+    color: white;
+    font-size: 12px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.myrow p {
+    color: var(--textGray);
+    font-size: 8px;
+    text-align: center;
+}
+
+.title-playlist p {
+       text-align: start;
+       font-size: 8px;
+       color: var(--textGray);
+       padding-bottom: 20px;
+}
+
+.circle {
+   border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
