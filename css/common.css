@@ -13,6 +13,7 @@
     --asideColor:#000000;
     --textWhite:#ffffff;
     --textGray:#75777c;
+    --footer-color:#282828;
 }
 
 /* GENERAL RULES */
@@ -25,7 +26,7 @@ body {
                                                 
 a {
     text-decoration: none;
-    color: var(--textWhite);
+    color: var(--textGray);
     font-size: 10px;
     font-family: 'Gotham Black', sans-serif;
 }

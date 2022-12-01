@@ -1,57 +1,130 @@
 /* STYLE NAVIGATION SECTION */
 
 .navigation {
-    padding: 20px 20px;
+    padding: 15px 20px;
     width: 250px;
     background-color: var(--asideColor);
-
+    color: var(--textGray);
+    position: sticky;
+    top: 0px;
+    overflow: auto;
 }
 
 .logo {
-    padding-bottom: 20px;
-}
-
-.nav-bar-top li {
     padding-bottom: 10px;
 }
 
-.footer-nav {
-  color: white;
-  margin-top: 150px;
+.logo img {
+    width:  100px;
 }
 
+.list-top li {
+    padding: 5px 0px;
+}
+
+.list-bottom li {
+    padding:5px 0px;
+}
+
+.list-bottom a {
+   font-size: 10px;
+}
+
+.list-top .fa-solid {
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.list-item-center {
+    padding-top: 10px;
+}
+
+.list-item-center h5 {
+    font-size: 15px;
+    color: var(--textWhite);
+    padding-bottom: 10px;
+}
+
+.list-item-center a {
+    font-size: 12px;
+    color: var(--textWhite);   
+}
+
+.list-center .fa-square-plus {
+    font-size: 30px;
+    color: var(--textGray);
+    border-radius: 50%;
+}
+
+.footer-nav {
+    color: white;
+    margin-top: 150px;
+  }
+  
 .top-footer {
-    padding: 10px 0px;
+    padding: 5px 0px;
     border-bottom: 1px solid white;
 }
 
+.top-footer .fa-circle-arrow-down {
+    color: black;
+    background-color:white;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 10px;
+}
 
+.top-footer span {
+    color: var(--textGray);
+    padding-left: 8px;
+    font-size: 10px;
+}
 
+.bottom-footer {
+    padding-top: 5px;
+}
 
+.bottom-footer .fa-circle-user {
+    font-size: 25px;
+    color: #808080;
+    background-color:lightgray;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.bottom-footer span {
+    font-size: 12px;
+}
 
 /* STYLE HEADER */
-
-.container {
+header {
     width: 100vw;
+    height: 20vh;
     max-width: 100%;
     position: sticky;
-    top: 0px;
+    top: 0;
+    z-index: 3;
 }
 
 .container-mybtn {
+    height: 10vh;
     background-color: #080b12 ;
     padding: 15px 0px;
     position: relative;
 }
 
 .container-mybtn button {
-    position: sticky;
-    left:950px;
-    top: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
     padding: 5px 30px;
     border-radius: 20px;
     background-color: transparent;
     border:1px solid  white;
+}
+
+.container-mybtn a {
+    color: white;
 }
 
 /* STYLE MAIN SECTION CONTAINER MAIN */
@@ -75,9 +148,16 @@ main .container-main {
 
 #container-nav {
     background-color: transparent;
-    width: 100%;
+    width: 100vw;
     position: sticky;
     top: 0px;
+    z-index: 2;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 50px;
+    left: 40px;
 }
 
 .nav-bar-main {
@@ -157,25 +237,126 @@ main .container-main {
 }
 
 
+/* STYLE SECTION FOOTER */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer {
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
 
 .player {
     height: 100px;
     display: flex;
-    justify-content: space-between;
-    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--footer-color);
 }
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.img-player {
+   width: 20%;
+   margin-left: -80px;
+ }
+
+.info-card {
+    margin: 0px 15px;
+    color: var(--textWhite);
+    font-size: 13px;
+}
+
+.info-card  p {
+    color: var(--textGray);
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+.icon-player {
+    margin-left: 80px;
+}
+
+.icon-player i {
+    color: var(--textGray);
+}
+
+.control {
+    width: 30%;
+    margin-right:calc((100% / 3) - 100px);
+}
+
+.control-top {
+    display: flex;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+.control-bottom {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.control-bottom p {
+    color: var(--textWhite);
+    font-size: 10px;
+    padding: 0px 20px;
+}
+
+.control-top .fa-solid {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#big {
+    font-size: 40px;
+}
+
+.w3-light-grey {
+    border-radius: 100px;
+    height:5px;
+    width:100%;
+    background-color:var(--textGray);
+    border: 1px solid var(--textGray);
+}
+
+.w3-green {
+    height:5px;
+    border-radius: 100px;
+    width:30%;
+    background-color:#c1c1c1; 
+} 
+
+.audio {
+    display: flex;
+}
+
+.audio .control-top i {
+    font-size: 15px;
+}
+
+.last-light-grey {
+    border-radius: 100px;
+    height:5px;
+    width:100%;
+    background-color:var(--textGray);
+    border: 1px solid var(--textGray);
+}
+
+.last-green {
+    height:5px;
+    border-radius: 100px;
+    width:30%;
+    background-color:#c1c1c1; 
+} 
+
+    
