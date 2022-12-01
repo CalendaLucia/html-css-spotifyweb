@@ -58,7 +58,7 @@
 
 .footer-nav {
     color: white;
-    margin-top: 150px;
+    margin-top: 250px;
   }
   
 .top-footer {
@@ -97,6 +97,7 @@
 }
 
 /* STYLE HEADER */
+
 header {
     width: 100vw;
     height: 20vh;
@@ -156,7 +157,7 @@ main .container-main {
 
 #nav-bar {
     position: fixed;
-    top: 50px;
+    top: 60px;
     left: 40px;
 }
 
@@ -199,6 +200,7 @@ main .container-main {
 
 .myrow .img {
     box-shadow: -2px -2px 7px -1px #000000;
+    position: relative;
 }
 
 .img img {
@@ -236,19 +238,21 @@ main .container-main {
    border-radius: 50%;
 }
 
-
 /* STYLE SECTION FOOTER */
 
 footer {
+    width: 100%;
     position: sticky;
     top: 0px;
     z-index: 3;
 }
 
 .player {
+    width: 100%;
+    max-width: 100%;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color:var(--footer-color);
 }
@@ -265,8 +269,8 @@ footer {
 }
 
 .img-player {
-   width: 20%;
-   margin-left: -80px;
+   width: 15%;
+   margin-left: -100px ;
  }
 
 .info-card {
@@ -291,7 +295,7 @@ footer {
 
 .control {
     width: 30%;
-    margin-right:calc((100% / 3) - 100px);
+    margin-left: -150px;
 }
 
 .control-top {
@@ -304,6 +308,12 @@ footer {
     padding-bottom: 30px;
     display: flex;
     align-items: center;
+}
+
+.control-bottom-right {
+    margin-right: 30px;
+    width: 100px;
+    margin-top: 15px;
 }
 
 .control-bottom p {
@@ -329,7 +339,7 @@ footer {
     border: 1px solid var(--textGray);
 }
 
-.w3-green {
+.w3-small {
     height:5px;
     border-radius: 100px;
     width:30%;
@@ -352,7 +362,7 @@ footer {
     border: 1px solid var(--textGray);
 }
 
-.last-green {
+.last-small {
     height:5px;
     border-radius: 100px;
     width:30%;
