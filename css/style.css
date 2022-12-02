@@ -138,7 +138,7 @@ main .container-main {
     background-color:var(--bgMain);
 }
 
-.container-main .content {
+.container-main #content {
     width: calc(100% - 250px); 
 }
 
@@ -180,6 +180,7 @@ main .container-main {
 /* STYLE MAIN SECTION TITLE */
 
 #title {
+    width: 100%;
     padding: 15px;
     margin-bottom: 10px;
 }
@@ -285,10 +286,13 @@ footer {
 
 .icon-player {
     margin-left: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon-player i {
     color: var(--textGray);
+    padding: 5px 0px;
 }
 
 .control {
