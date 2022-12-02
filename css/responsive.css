@@ -2,7 +2,10 @@
 
 @media screen and (max-width:1100px) {
 
-    
+    .container-main #content {
+        width: calc(100% - 200px); 
+    }
+
     .mycol {
         width: calc((100% / 4) - 10px);
     }
@@ -12,11 +15,11 @@
     }
 
     .logo {
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
     
     .logo img {
-        width:  150px;
+        width:  120px;
     }
     
     .list-item-center h5 {
@@ -32,12 +35,20 @@
         vertical-align: middle;
   }
 
-    .list-top a {
+  .list-top a {
        font-size: 12px;
   }
 
+  .white {
+    color: var(--textWhite);
+  }
+
+  .grey {
+    color: var(--textGrey);
+  }
+
   .list-item-bottom {
-    padding-bottom: 300px;
+    padding-bottom: 80px;
   }
 
   .list-item-bottom a {
@@ -63,17 +74,18 @@
 /* SECTION HEADER */
 
 .nav-bar-main {
-    width: 55%;
+    width: 75%;
     text-align: center;
-   }
+    padding-left: 150px;
+}
 
-   .title-playlist h2 {
-    font-size: 20px;
+.title-playlist h2 {
+    font-size: 18px;
     padding-bottom: 20px;
 }
 
 #title {
-    padding-top: 40px;
+    padding-top: 50px;
 }
     
 /* SECTION FOOTER */
@@ -130,10 +142,16 @@
 .last-small {
     height:3px;
 } 
+
 } 
 
 @media screen and (max-width:700px) {
 
+
+.container-main #content {
+    width: calc(100% - 200px); 
+}
+    
 .mycol {
     width: calc((100% / 2) - 10px);
 }
@@ -154,6 +172,14 @@
    font-size: 10px;
 }
 
+.white {
+    color: var(--textWhite);
+  }
+
+  .grey {
+    color: var(--textGrey);
+  }
+
 .list-item-bottom a {
 font-size: 12px;
 }
@@ -173,18 +199,31 @@ font-size: 12px;
 /* SECTION HEADER */
 
 .nav-bar-main {
-   width: 40%;
+   width: 70%;
+   margin-top: 10px;
+   margin-left: 80px;
+
+}
+
+.nav-bar-main a {
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 10px;
 }
 
 .title-playlist h2 {
    font-size: 20px;
-   padding-top: 10px;
-   padding-bottom: 20px;
-   padding-left: 20px;
+   padding-bottom: 30px;
+   padding-left: 10px;
 }
 
 .mycol .img {
-    width: 95%;
+    width: 90%;
+}
+
+.container-mybtn button {
+    bottom: 25px;
+    right: 10px;
 }
 
 /* SECTION FOOTER */
@@ -242,10 +281,134 @@ height:3px;
 height:3px;
 } 
 
- 
-
-
-
-
+.w3-small:hover   .fa-circle {
+    font-size: 10px;
+    bottom: -3px;
+    left: 20px; 
+}
 
 } 
+
+@media screen and (max-width:600px) {
+
+    .container-main #content {
+        width: calc(100% - 50px); 
+    }
+
+    .navigation {
+        width:50px;
+        padding: 10px 15px;
+    }
+
+    .block {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .logo img {
+        width: 45px;
+        padding-right: 20px;
+    }
+
+    .aside-nav a, span, h5, .fa-square-plus {
+        display: none;
+    }
+
+    .top-footer {
+        border-bottom: none;
+    }
+
+    .white {
+        color: var(--textWhite);
+      }
+    
+    .grey {
+        color: var(--textGrey);
+      }
+    
+    .bottom-footer .fa-circle-user {
+        font-size: 20px;
+      }
+
+    .top-footer .fa-circle-arrow-down {
+        font-size: 20px;
+    }
+
+    .footer-nav {
+        margin-top: 360px;
+    }
+
+    .list-top .fa-solid {
+        font-size: 20px;
+        
+    }
+   
+  /* SECTION HEADER */
+    
+    .nav-bar-main {
+       width: 100%;
+    }
+
+    #nav-bar {
+        top: 60px;
+        left: -150px ;
+   }
+    
+    .nav-bar-main a {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    .mycol .img {
+        width: 80%;
+    }
+    
+    /* SECTION FOOTER */
+ 
+   .info-card  h3 {
+    font-size: 8px;
+    }
+
+    .info-card  p {
+        font-size: 8px;
+        width: 10px;
+        }
+    
+    .icon-player {
+    margin-left: 0px;
+    margin-top: 8px;
+    font-size: 12px;
+    flex-direction: column;
+    }
+
+    .card {
+        margin-right: 100px;
+    }
+
+    .control {
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+
+    .control-top {
+        padding: 0px 0px;
+    }
+    
+    .control-bottom p {
+    font-size: 6px;
+    }
+
+    .w3-light-grey {
+    height:3px;
+    }
+    
+    .control-bottom {
+        width: 250px;
+        margin-left: -40px;
+    }
+ 
+    } 
+    
