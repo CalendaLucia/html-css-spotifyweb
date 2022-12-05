@@ -157,9 +157,10 @@ main .container-main {
 }
 
 #nav-bar {
+    width: 20%;
     position: fixed;
     top: 60px;
-    left: 40px;
+    left: 100px;
     z-index: 3;
 }
 
@@ -392,10 +393,6 @@ footer {
         position: absolute;
         top: 50px;
         left: 70px;
-        color: rebeccapurple;
-     
-        
-        
 }
 
 .img-player {

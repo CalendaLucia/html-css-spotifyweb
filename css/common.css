@@ -62,13 +62,21 @@ a {
     color:white;
 }
 
-.mycol:hover  .overlay{
+   .mycol:hover  .overlay{
     display: block;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.img:hover  .overlay {
+    display: block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
 /* GENERAL EFFECT HOVER */
 
@@ -94,6 +102,11 @@ button:hover {
 }
 
 .w3-small:hover    {
+    background-color:limegreen; 
+    cursor: pointer;
+} 
+
+.last-small:hover    {
     background-color:limegreen; 
     cursor: pointer;
 } 
